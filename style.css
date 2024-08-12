@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: #2D0DAD;
+
+}
+
+.container{
+    background-color:  #E0F021;
+    border-radius: 50px;
+    width: 1200px;
+    margin: 205px auto;
+    padding: 86px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.child{
+    background-color: #240404;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child p{
+    background-color: #D81414;
+    width: 133px;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    padding: 20px 38px;
+}
